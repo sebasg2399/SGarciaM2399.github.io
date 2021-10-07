@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de claves</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+<body>
+
+    <div class="columns mt-4">
+        <div class="column"></div>
+        <div class="column">
+            <div class="container">
+                <div class="field">
+
+                    <label for="">Ingresa el numero p</label>
+                    <input type="number" name="p" id="p">
+                </div>
+                <div class="field">
+
+                    <label for="">Ingresa el numero q</label>
+                    <input type="number" name="q" id="q">
+                </div>
+                <div class="field is-grouped">
+                    <div class="control">
+                        
+                        <button class="button is-success" id="verify">Verificar</button>
+                    </div>
+                    <div class="control">
+
+                        <a href="index.html" ><button class="button is-danger">Volver</button></a>
+                    </div>
+                </div>
+                
+                <p id="n_number"></p>
+                <p id="phi_euler"></p>
+                <h1 id="public_key"></h1>
+                <h1 id="private_key"></h1>
+            </div>
+        </div>
+        <div class="column"></div>
+    </div>    
+    
+
+</body>
+<script src="./js/key_generator.js"></script>
+</html>

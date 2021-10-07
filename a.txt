@@ -1,0 +1,1 @@
+Llevaria los articulos 1 , 2 , 3 con pesos 6 , 10 , 14 con un beneficio de 48$
